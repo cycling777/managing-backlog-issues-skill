@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage Backlog Issues"
+  short_description: "Safely manage issues across Backlog projects"
+  default_prompt: "Use $managing-backlog-issues to select a Backlog project, inspect its current state, and propose any issue changes for approval."
