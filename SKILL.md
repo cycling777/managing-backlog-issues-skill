@@ -54,7 +54,11 @@ lists; live Backlog state is authoritative.
   Stop if the authenticated user is not a project member.
 - Do not change the assignee of an existing issue unless explicitly requested.
 - Manage content, parent, assignee, status, dates, category, issue type,
-  priority, and comments. Leave unknown users and dates unset.
+  priority, and comments. For a planned or active issue that should appear in
+  Backlog's Gantt chart, propose both a start date and a due date before the
+  write, and set both after approval. If either date is unknown, explain that
+  Gantt tracking will be incomplete and ask for it rather than guessing. Leave
+  dates unset only when the issue is not intended for schedule tracking.
 - Read notifications without changing them. A reply candidate has another user
   as the latest relevant commenter and no later comment by the authenticated
   user. Show the chronology and label this as a heuristic.
